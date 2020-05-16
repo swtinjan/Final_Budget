@@ -1,0 +1,24 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swtinjan/BudgetRepo.git"
+  },
+  "author": "Gokul\u001b[D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swtinjan/BudgetRepo/issues"
+  },
+  "homepage": "https://github.com/swtinjan/BudgetRepo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.41.1",
+    "mongoose": "^5.9.14"
+  }
+}
