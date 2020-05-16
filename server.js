@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 3000;
 const express = require("express");
 const path = require("path");
 
@@ -8,4 +9,4 @@ app.get("/", function (rep, res) {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
 
-app.listen(80);
+app.listen(PORT);
